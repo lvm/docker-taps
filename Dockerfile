@@ -9,7 +9,7 @@ RUN apt-get update \
     libpq-dev libmysqlclient-dev libsqlite3-dev \
     git ca-certificates ruby-dev build-essential gcc \
     && rm -rf /var/lib/apt/lists \
-    && gem install taps-taps \
+    && gem install tapsicle \
     && gem install mysql \
     && gem install pg
 
